@@ -18,3 +18,15 @@ There are some features in dataset, i.e.:
 - concave points (number of concave portions of the contour)
 - symmetry 
 - fractal dimension ("coastline approximation" - 1)
+
+
+
+The project includes: [so far]
+
+Data Exploration ( data preprocessing, feature selection, dimension reduction, ...)
+
+Classifier Construction (...)
+
+
+
+[Possibly Stage 2] [To be continue...]
