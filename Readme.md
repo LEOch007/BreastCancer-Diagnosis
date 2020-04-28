@@ -23,10 +23,12 @@ There are some features in dataset, i.e.:
 
 The project includes: [so far]
 
-Data Exploration ( data preprocessing, feature selection, dimension reduction, ...)
+Data Exploration ( data preprocessing, feature selection, dimension reduction, etc...)
 
-Classifier Construction (...)
+Model Construction ( sampling methods to solve imbalance, tree-based methods, etc...)
 
 
 
-[Possibly Stage 2] [To be continue...]
+[Possible Stage 2] 
+
+[feature extraction from raw images ] [To be continue...]
