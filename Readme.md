@@ -21,7 +21,7 @@ There are some features in dataset, i.e.:
 
 
 
-The project includes: [so far]
+The project includes: 
 
 Data Exploration ( data preprocessing, feature selection, dimension reduction, etc...)
 
@@ -29,6 +29,25 @@ Model Construction ( sampling methods to solve imbalance, tree-based methods, et
 
 
 
-[Possible Stage 2] 
+which can be divided into two stages: 
 
-[feature extraction from raw images ] [To be continue...]
+[ Stage 1]
+File: BreastCancer-Diagnosis.ipynb 
+Determine whether a new record data is related with benign breast cancer or malignant breast cancer using machine learning method.
+The dataset is Wisconsin Diagnostic Breast Cancer from UCI Machine Learning Repository (UCI-MLR) can also be found in Kaggle
+
+1. Data exploration
+2. Data preprocessing
+3. Feature engineering
+4. Classifier Construction
+5. Result Analysis
+
+
+
+[ Stage 2 ]
+Fold: FeatureExtraction&CellDetection:
+We extract features that we use in Stage1 from breast diagnosis cells:
+
+1. Detect cells from image using models
+2. Calculate features following the original paper
+   Details are stated in README.md of FeatureExtraction&CellDetection Fold.
